@@ -7,6 +7,10 @@
 		.align-center{
 			text-align: center;
 		}
+		h3{
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
 	</style>
 </head>
 
@@ -14,33 +18,24 @@
 	<h1 class="align-center">Task 3</h1>
 	<hr/>
 	<form>
-		Name
-		<br/>
+		<h3>Name</h3>
 		<input type="text" name="firstname"/>
 		<br/>
-		<br/>
-		Email
-		<br/>
+		<h3>Email</h3>
 		<input type="text" name="email"/>
 		<br/>
-		<br/>
-		Sex
-		<br/>
+		<h3>Sex</h3>
 		<input type="radio" name="sex" value="male"/>Male
 		<input type="radio" name="sex" value="female"/>Female
 		<br/>
-		<br/>
-		Current status
-		<br/>
+		<h3>Current status</h3>
 		<input type="checkbox" name="status" value="student"/>Student
 		<br/>
 		<input type="checkbox" name="status" value="employed"/>Employed
 		<br/>
 		<input type="checkbox" name="status" value="unmployed">Unemloyed
 		<br/>
-		<br/>
-		Month and Year of birth
-		</br>
+		<h3>Month and Year of birth</h3>
 		<select name="month">
 			<option value="not-choosen" selected="selected">Not choosen</option>
 			<option value="jan">January</option>
@@ -72,9 +67,7 @@
 			<option value="2018">2018</option>
 		</select>
 		</br>
-		</br>
-		Skills and Technologies
-		</br>
+		<h3>Skills and Technologies</h3>
 		<select name="optgroup">
 			<option value="not-choosen" selected="selected">Not choosen</option>
 			<optgroup label="Tech skills">
@@ -91,17 +84,12 @@
 			</optgroup>
 		</select>
 		</br>
-		</br>
-		Photo
-		<br/>
+		<h3>Photo</h3>
 		<input type="file" name="photo" value="choose-file"/>
 		<br/>
-		<br/>
-		Comments
-		<br/>
+		<h3>Comments</h3>
 		<textarea name="comments">
 		</textarea>
-		<br/>
 		<br/>
 		<input type="submit" value="Save"/>
 	</form>
