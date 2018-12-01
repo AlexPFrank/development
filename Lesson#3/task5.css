@@ -1,0 +1,17 @@
+.lightblue{
+  background-color: #ddebf7;
+}
+
+.grey{
+  background-color:  #f2f2de;
+}
+
+td{
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+table{
+  border: 2px solid black;
+}
