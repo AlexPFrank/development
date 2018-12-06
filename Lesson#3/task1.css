@@ -1,59 +1,58 @@
-.task1topic{
+.topic {
   text-align: center;
   color: #FFA000;
 }
 
-.main-p-letter{
-  font-size: 200%;
+.h1 {
   color: red;
 }
 
-.greencurve{
+.greencurve {
   color: white;
   font-weight: bold;
   background-color: #00810F;
 }
 
-.listtopic1{
+.listtopic1 {
   color: #FFA000;
 }
 
-.listtopic2{
+.listtopic2 {
   color: #0000FF;
 }
 
-.mListtopic{
+.included-Listtopic {
   font-weight: bold;
 }
 
-.greylist{
+.greylist {
   color: grey;
 }
 
-.redlist{
+.redlist {
   color: red;
 }
 
-.greenlist{
+.greenlist {
   color: green;
 }
 
-.tabletopic{
+.tabletopic {
   font-weight: bold;
   text-align: center
 }
 
-.names{
+.names {
   text-align: left;
   color: orange;
 }
 
-.meanings{
+.meanings {
   color: white;
   background-color: green;
   text-align: center;
 }
 
-table{
+table {
   width: 400px;
 }

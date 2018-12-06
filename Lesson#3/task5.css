@@ -1,17 +1,17 @@
-.lightblue{
+.lightblue {
   background-color: #ddebf7;
 }
 
-.grey{
-  background-color:  #f2f2de;
+.grey {
+  background-color: #f2f2de;
 }
 
-td{
+td {
   text-align: center;
   padding: 5px;
-  border: 1px solid black;
+  border-bottom: 1px solid grey;
 }
 
-table{
-  border: 2px solid black;
+table {
+  border-collapse: collapse;
 }
